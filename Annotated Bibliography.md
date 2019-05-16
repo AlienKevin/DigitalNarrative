@@ -38,7 +38,7 @@ Introduced by Google in 2007, Android is the most popular smartphone operating s
 
 Open Source software are around us every day but people just do not notice them. The popularity of the Android mobile operating system proves that open source has become essential to our daily life.
 
-## [Mobile Usage Per Day](<https://www.pcmag.com/article/361587/tech-addiction-by-the-numbers-how-much-time-we-spend-online>)
+## Mobile Usage Per Day
 
 #### Summary
 
@@ -109,14 +109,14 @@ Wikipedia is one of the best example of the Open Source movement and a demonstra
 
  The following projects try to answer these questions and do much more to show the power of open source collaboration and the unbelievable strength of community when millions of humans come together to work on a project.
 
-### Listen to Wikipedia
+### [Listen to Wikipedia](http://listen.hatnote.com/)
 
 Listen to the sound of Wikipedia's recent changes feed. Bells indicate additions and string plucks indicate subtractions. Pitch changes according to the size of the edit; the larger the edit, the deeper the note. Green circles show edits from [unregistered contributors](http://en.wikipedia.org/wiki/Wikipedia:User_access_levels#Unregistered_users), and purple circles mark edits performed by [automated bots](http://en.wikipedia.org/wiki/Wikipedia:Bots).  [(source)](https://blog.wikimedia.org/2016/01/15/15-years-data-visualization/)
 
 <iframe src="http://listen.hatnote.com/#ru,ja,fr,it,ar,he,zh,hi,pa,ta,mr,or,gu,mk,sr,hu,no,eo,et,pt,el,fi,bg,be,pl,sa,kn,ml,te,bn,as,id,fa,sv,es,nl,uk,de,en" width="200" height="400" frameborder="0" scrolling="auto">
 </iframe>
 
-### Histography
+### [Histography](http://histography.io/)
 
 World history is on a sliding scale in “Histography.” Across a resizable timeline, small black dots mark historical milestones. Click to select a moment, and explore the Wikipedia sources. Play with the categories to filter history to ‘music’, ‘inventions’, ‘riots’ and more. Time has rarely appeared so succinct. But within each dot there are thousands of further paths on the Wikipedia articles through history and culture. [(source)](https://blog.wikimedia.org/2016/01/15/15-years-data-visualization/)
 
@@ -131,7 +131,7 @@ World history is on a sliding scale in “Histography.” Across a resizable tim
     </iframe>
 </div>
 
-### WikiGalaxy
+### [WikiGalaxy](https://wiki.polyfra.me/)
 
 Float through 100,000 of 2014’s most popular Wikipedia articles in the “WikiGalaxy.” Here, related topics are grouped as 500 ‘nebulae’ with colorful points of light referencing articles in dark 3D space. Try ‘fly mode’ to experience the joy of encountering random articles in any and all directions. This is Star Trek for browsing the world’s greatest public library.  [(source)](https://blog.wikimedia.org/2016/01/15/15-years-data-visualization/)
 
@@ -203,6 +203,8 @@ This is a book analyzing Wikipedia's collaborative culture including three princ
 ### Significance
 
 This book reveals a lot of overlaps between founding American values seen in the Declaration, the Constitution, and Supreme Court Cases and the principles of Open Source communities like Wikipedia.
+
+[mindmap link](https://coggle.it/diagram/XNyx1g1FzNMDKEm4/t/comparison-between-american-and-wikipedia's-values/e416ef6cf9683fd81a15baed469fdddd9da25a22361c5ea99d0fe1a7dbf2cd8d)
 
 <iframe width='1706' height='480' src='https://embed.coggle.it/diagram/XNyx1g1FzNMDKEm4/e416ef6cf9683fd81a15baed469fdddd9da25a22361c5ea99d0fe1a7dbf2cd8d' frameborder='0' allowfullscreen></iframe>
 
