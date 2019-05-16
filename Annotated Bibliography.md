@@ -16,7 +16,7 @@ The MIT License is one of the most used open source license for software. It is 
 
 The MIT License enabled millions of programmers to freely share their software with others and collaborate with other programmers without the restrictions of the strict Copyright laws.
 
-## Declaration of Independence
+## Declaration of Independence[^2]
 
 #### Summary
 
@@ -206,3 +206,34 @@ This book reveals a lot of overlaps between founding American values seen in the
 
 <iframe width='1706' height='480' src='https://embed.coggle.it/diagram/XNyx1g1FzNMDKEm4/e416ef6cf9683fd81a15baed469fdddd9da25a22361c5ea99d0fe1a7dbf2cd8d' frameborder='0' allowfullscreen></iframe>
 
+# References
+
+“About The Licenses.” *Creative Commons*, creativecommons.org/licenses.
+
+“Browser Market Share Worldwide.” *StatCounter Global Stats*, 2019, gs.statcounter.com/browser-market-share#monthly-200901-201707.
+
+Cormec, Owen. “WikiGalaxy: Explore Wikipedia in 3D.” *WikiGalaxy: Explore Wikipedia in 3D*, wiki.polyfra.me/.
+
+“Explore Creative Commons.” *Flickr*, Yahoo!, 2019, www.flickr.com/creativecommons/.
+
+Goldstein, Ayala. “Top 10 Open Source Licenses in 2018: Trends and Predictions.” *WhiteSource*, 21 Feb. 2019, resources.whitesourcesoftware.com/blog-whitesource/top-open-source-licenses-trends-and-predictions.
+
+LaPorte, Stephen, and Mahmoud Hashemi. “Hatnote Listen to Wikipedia.” *Hatnote*, listen.hatnote.com/.
+
+Marvin, Rob. “Tech Addiction By the Numbers: How Much Time We Spend Online.” *PCMAG*, 11 June 2018, www.pcmag.com/article/361587/tech-addiction-by-the-numbers-how-much-time-we-spend-online.
+
+“Mobile OS Market Share 2018.” *Statista*, www.statista.com/statistics/266136/global-market-share-held-by-smartphone-operating-systems/.
+
+Park, Jane. “Creative Commons & Cultural Heritage.” *LinkedIn SlideShare*, 12 Dec. 2014, www.slideshare.net/janeatcc/cc-cultural-heritage.
+
+Reagle, Joseph Michael. *Good Faith Collaboration: the Culture of Wikipedia*. MIT Press, 2012.
+
+Stauber, Matan. “Timeline of History.” *Histography*, histography.io/.
+
+“The Declaration of Independence: Full Text.” *Ushistory.org*, Independence Hall Association, www.ushistory.org/declaration/document/.
+
+“The MIT License.” *The MIT License*, Open Source Initiative, opensource.org/licenses/MIT.
+
+“Usage of Web Servers Broken down by Ranking.” *W3Techs*, 2019, w3techs.com/technologies/cross/web_server/ranking.
+
+“Welcome to Europeana Collections.” *Europeana Collections*, www.europeana.eu/portal/en/about.html.
