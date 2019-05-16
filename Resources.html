@@ -1,0 +1,277 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<title>Resources</title><link href='https://fonts.loli.net/css?family=PT+Serif:400,400italic,700,700italic&subset=latin,cyrillic-ext,cyrillic,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; tab-size: 4; }
+iframe { margin: auto; }
+a.url { word-break: break-all; }
+a:active, a:hover { outline: 0px; }
+.in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; word-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 40px; }
+#write.first-line-indent p { text-indent: 2em; }
+#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
+#write.first-line-indent li { margin-left: 2em; }
+.for-image #write { padding-left: 8px; padding-right: 8px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+.typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
+@media screen and (max-width: 500px) {
+  body.typora-export { padding-left: 0px; padding-right: 0px; }
+  #write { padding-left: 20px; padding-right: 20px; }
+  .CodeMirror-sizer { margin-left: 0px !important; }
+  .CodeMirror-gutters { display: none !important; }
+}
+#write li > figure:first-child { margin-top: -20px; }
+#write ol, #write ul { position: relative; }
+img { max-width: 100%; vertical-align: middle; }
+button, input, select, textarea { color: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+*, ::after, ::before { box-sizing: border-box; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
+h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 2; }
+p { orphans: 4; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+.md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
+a { cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; cursor: pointer; }
+sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
+figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
+figure > table { margin: 0px !important; }
+tr { break-inside: avoid; break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
+table.md-table td { min-width: 32px; }
+.CodeMirror-gutters { border-right: 0px; background-color: inherit; }
+.CodeMirror-linenumber { user-select: none; }
+.CodeMirror { text-align: left; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror pre { padding: 0px 4px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+#write pre { white-space: pre-wrap; }
+#write.fences-no-line-wrapping pre { white-space: pre; }
+#write pre.ty-contain-cm { white-space: normal; }
+.CodeMirror-gutters { margin-right: 4px; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background: inherit; position: relative !important; }
+.md-diagram-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+#write .md-fences.mock-cm { white-space: pre-wrap; }
+.md-fences.md-fences-with-lineno { padding-left: 0px; }
+#write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
+.md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
+.CodeMirror-line, twitterwidget { break-inside: avoid; }
+.footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
+.footnotes + .footnotes { margin-top: 0px; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; -webkit-tap-highlight-color: transparent; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li .mathjax-block, li p { margin: 0.5rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child, li > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
+#write .footnote-line { white-space: pre-wrap; }
+@media print {
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; }
+  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
+  .typora-export * { -webkit-print-color-adjust: exact; }
+  html.blink-to-pdf { font-size: 13px; }
+  .typora-export #write { padding-left: 32px; padding-right: 32px; padding-bottom: 0px; break-after: avoid; }
+  .typora-export #write::after { height: 0px; }
+  @page { margin: 20mm 0px; }
+}
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+a img, img a { cursor: pointer; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background: rgb(204, 204, 204); display: block; overflow-x: hidden; }
+p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
+p > .md-image:only-child { display: inline-block; width: 100%; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.md-math-block { width: 100%; }
+.md-math-block:not(:empty)::after { display: none; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus { outline: 0px; box-shadow: none; }
+.md-task-list-item { position: relative; list-style-type: none; }
+.task-list-item.md-task-list-item { padding-left: 0px; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc-content::after, .md-toc::after { display: none; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); }
+.md-toc-item a { text-decoration: none; }
+.md-toc-inner:hover { text-decoration: underline; }
+.md-toc-inner { display: inline-block; cursor: pointer; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+@media screen and (max-width: 48em) {
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+}
+a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.md-attr { display: none; }
+.md-fn-count::after { content: "."; }
+code, pre, samp, tt { font-family: var(--monospace); }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.8; font-family: var(--monospace); }
+code { text-align: left; vertical-align: initial; }
+a.md-print-anchor { white-space: pre !important; border-width: initial !important; border-style: none !important; border-color: initial !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
+.md-inline-math .MathJax_SVG .noError { display: none !important; }
+.html-for-mac .inline-math-svg .MathJax_SVG { vertical-align: 0.2px; }
+.md-math-block .MathJax_SVG_Display { text-align: center; margin: 0px; position: relative; text-indent: 0px; max-width: none; max-height: none; min-height: 0px; min-width: 100%; width: auto; overflow-y: hidden; display: block !important; }
+.MathJax_SVG_Display, .md-inline-math .MathJax_SVG_Display { width: auto; margin: inherit; display: inline-block !important; }
+.MathJax_SVG .MJX-monospace { font-family: var(--monospace); }
+.MathJax_SVG .MJX-sans-serif { font-family: sans-serif; }
+.MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; zoom: 90%; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; }
+.MathJax_SVG * { transition: none; }
+.MathJax_SVG_Display svg { vertical-align: middle !important; margin-bottom: 0px !important; }
+.os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
+.md-diagram-panel > svg { max-width: 100%; }
+[lang="mermaid"] svg, [lang="flow"] svg { max-width: 100%; }
+[lang="mermaid"] .node text { font-size: 1rem; }
+table tr th { border-bottom: 0px; }
+video { max-width: 100%; display: block; margin: 0px auto; }
+iframe { max-width: 100%; width: 100%; border: none; }
+.highlight td, .highlight tr { border: 0px; }
+
+
+:root { --active-file-bg-color: rgba(32, 43, 51, 0.63); --active-file-text-color: white; --bg-color: #f3f2ee; --text-color: #1f0909; --control-text-color: #444; --rawblock-edit-panel-bd: #e5e5e5; --select-text-bg-color: rgba(32, 43, 51, 0.63); --select-text-font-color: white; }
+pre { --select-text-bg-color: #36284e; --select-text-font-color: #fff; }
+html { font-size: 16px; }
+html, body { background-color: rgb(243, 242, 238); font-family: "PT Serif", "Times New Roman", Times, serif; color: rgb(31, 9, 9); line-height: 1.5em; }
+#write { max-width: 40em; }
+ol li { list-style-type: decimal; list-style-position: outside; }
+ul li { list-style-type: disc; list-style-position: outside; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote::before, blockquote::after, q::before, q::after { content: none; }
+table { border-collapse: collapse; border-spacing: 0px; }
+h1, h2, h3, h4, h5, h6 { font-weight: bold; }
+h1 { font-size: 1.875em; line-height: 1.6em; margin-top: 2em; }
+h2, h3 { font-size: 1.3125em; line-height: 1.15; margin-top: 2.28571em; margin-bottom: 1.15em; }
+h3 { font-weight: normal; }
+h4 { font-size: 1.125em; margin-top: 2.67em; }
+h5, h6 { font-size: 1em; }
+h1 { border-bottom: 1px solid; margin-bottom: 1.875em; padding-bottom: 0.8125em; }
+a { text-decoration: none; color: rgb(6, 85, 136); }
+a:hover, a:active { text-decoration: underline; }
+p, blockquote, .md-fences { margin-bottom: 1.5em; }
+h1, h2, h3, h4, h5, h6 { margin-bottom: 1.5em; }
+blockquote { font-style: italic; border-left: 5px solid; margin-left: 2em; padding-left: 1em; }
+ul, ol { margin: 0px 0px 1.5em 1.5em; }
+.md-meta, .md-before, .md-after { color: rgb(153, 153, 153); }
+table { margin-bottom: 1.5em; font-size: 1em; }
+thead th, tfoot th { padding: 0.25em 0.25em 0.25em 0.4em; text-transform: uppercase; }
+th { text-align: left; }
+td { vertical-align: top; padding: 0.25em 0.25em 0.25em 0.4em; }
+code, .md-fences { background-color: rgb(218, 218, 218); }
+code { padding-left: 2px; padding-right: 2px; }
+.md-fences { margin-left: 2em; margin-bottom: 3em; padding-left: 1ch; padding-right: 1ch; }
+pre, code, tt { font-size: 0.875em; line-height: 1.71429em; }
+h1 { line-height: 1.3em; font-weight: normal; margin-bottom: 0.5em; }
+p + ul, p + ol { margin-top: 0.5em; }
+h3 + ul, h4 + ul, h5 + ul, h6 + ul, h3 + ol, h4 + ol, h5 + ol, h6 + ol { margin-top: 0.5em; }
+li > ul, li > ol { margin-top: inherit; margin-bottom: 0px; }
+li ol > li { list-style-type: lower-alpha; }
+li li ol > li { list-style-type: lower-roman; }
+h2, h3 { margin-bottom: 0.75em; }
+hr { border-top: none; border-right: none; border-bottom: 1px solid; border-left: none; }
+h1 { border-color: rgb(197, 197, 197); }
+blockquote { border-color: rgb(186, 186, 186); color: rgb(101, 101, 101); }
+blockquote ul, blockquote ol { margin-left: 0px; }
+.ty-table-edit { background-color: transparent; }
+thead { background-color: rgb(218, 218, 218); }
+tr:nth-child(2n) { background: rgb(232, 231, 231); }
+hr { border-color: rgb(197, 197, 197); }
+.task-list { padding-left: 1rem; }
+.md-task-list-item { padding-left: 1.5rem; list-style-type: none; }
+.md-task-list-item > input::before { content: "√"; display: inline-block; width: 1.25rem; height: 1.6rem; vertical-align: middle; text-align: center; color: rgb(221, 221, 221); background-color: rgb(243, 242, 238); }
+.md-task-list-item > input:checked::before, .md-task-list-item > input[checked]::before { color: inherit; }
+#write pre.md-meta-block { min-height: 1.875rem; color: rgb(85, 85, 85); border: 0px; background: transparent; margin-left: 1em; margin-top: 1em; }
+.md-image > .md-meta { color: rgb(155, 81, 70); }
+.md-image > .md-meta { font-family: Menlo, "Ubuntu Mono", Consolas, "Courier New", "Microsoft Yahei", "Hiragino Sans GB", "WenQuanYi Micro Hei", serif; }
+#write > h3.md-focus::before { left: -1.5rem; color: rgb(153, 153, 153); border-color: rgb(153, 153, 153); }
+#write > h4.md-focus::before { left: -1.5rem; top: 0.25rem; color: rgb(153, 153, 153); border-color: rgb(153, 153, 153); }
+#write > h5.md-focus::before { left: -1.5rem; color: rgb(153, 153, 153); border-color: rgb(153, 153, 153); }
+#write > h6.md-focus::before { left: -1.5rem; top: 0.3125rem; color: rgb(153, 153, 153); border-color: rgb(153, 153, 153); }
+.md-toc:focus .md-toc-content { margin-top: 19px; }
+.md-toc-content:empty::before { color: rgb(6, 85, 136); }
+.md-toc-item { color: rgb(6, 85, 136); }
+#write div.md-toc-tooltip { background-color: rgb(243, 242, 238); }
+#typora-sidebar { background-color: rgb(243, 242, 238); box-shadow: rgba(0, 0, 0, 0.376) 0px 6px 12px; }
+.pin-outline #typora-sidebar { background: inherit; box-shadow: none; border-right: 1px dashed; }
+.pin-outline #typora-sidebar:hover .outline-title-wrapper { border-left: 1px dashed; }
+.outline-item:hover { background-color: rgb(218, 218, 218); border-left: 28px solid rgb(218, 218, 218); border-right: 18px solid rgb(218, 218, 218); }
+.typora-node .outline-item:hover { border-right: 28px solid rgb(218, 218, 218); }
+.outline-expander::before { content: ""; font-family: FontAwesome; font-size: 14px; top: 1px; }
+.outline-expander:hover::before, .outline-item-open > .outline-item > .outline-expander::before { content: ""; }
+.modal-content { background-color: rgb(243, 242, 238); }
+.auto-suggest-container ul li { list-style-type: none; }
+.megamenu-menu, #top-titlebar, #top-titlebar *, .megamenu-content { background: rgb(243, 242, 238); color: rgb(31, 9, 9); }
+.megamenu-menu-header { border-bottom: 1px dashed rgb(32, 43, 51); }
+.megamenu-menu { box-shadow: none; border-right: 1px dashed; }
+header, .context-menu, .megamenu-content, footer { font-family: "PT Serif", "Times New Roman", Times, serif; color: rgb(31, 9, 9); }
+#megamenu-back-btn { color: rgb(31, 9, 9); border-color: rgb(31, 9, 9); }
+.megamenu-menu-header #megamenu-menu-header-title::before { color: rgb(31, 9, 9); }
+.megamenu-menu-list li a:hover, .megamenu-menu-list li a.active { color: inherit; background-color: rgb(232, 231, 223); }
+.long-btn:hover { background-color: rgb(232, 231, 223); }
+#recent-file-panel tbody tr:nth-child(2n-1) { background-color: transparent !important; }
+.megamenu-menu-panel tbody tr:hover td:nth-child(2) { color: inherit; }
+.megamenu-menu-panel .btn { background-color: rgb(210, 209, 209); }
+.btn-default { background-color: transparent; }
+.typora-sourceview-on #toggle-sourceview-btn, .ty-show-word-count #footer-word-count { background: rgb(199, 197, 197); }
+#typora-quick-open { background-color: inherit; }
+.md-diagram-panel { margin-top: 8px; }
+.file-list-item-file-name { font-weight: initial; }
+.file-list-item-summary { opacity: 1; }
+.file-list-item { color: rgb(119, 119, 119); }
+.file-list-item.active { background-color: inherit; color: black; }
+.ty-side-sort-btn.active { background-color: inherit; }
+.file-list-item.active .file-list-item-file-name { font-weight: bold; }
+.file-list-item { opacity: 1 !important; }
+.file-library-node.active > .file-node-background { background-color: var(--active-file-bg-color); }
+.file-tree-node.active > .file-node-content { color: var(--active-file-text-color); }
+.md-task-list-item > input { margin-left: -1.6em; margin-top: calc(1rem - 12px); }
+input { border: 1px solid rgb(170, 170, 170); }
+.megamenu-menu-header #megamenu-menu-header-title, .megamenu-menu-header:hover, .megamenu-menu-header:focus { color: inherit; }
+.dropdown-menu .divider { border-color: rgb(229, 229, 229); }
+.os-windows-7 strong, .os-windows-7 strong { font-weight: 760; }
+
+
+aside { background: rgb(221, 221, 221); border-radius: 20px; margin: 0px; padding: 10px 10px 15px 20px; }
+aside::before { content: url("./user-icons/info.svg"); position: relative; top: 5px; }
+aside ul, aside ol { margin: 0px 0px 0.5em 0.5em; }
+aside[role="warning"]::before { content: "⚠️"; position: static; }
+.md-task-list-item > input { margin-top: calc(1rem - 10px); }
+.md-task-list-item > input::before { content: none; }
+
+
+
+ .typora-export li, .typora-export p, .typora-export,  .footnote-line {white-space: normal;} 
+</style>
+</head>
+<body class='typora-export os-windows' >
+<div  id='write'  class = 'is-node'><h1><a name='header-n2' class='md-header-anchor '></a>Resources</h1><h2><a name='header-n3' class='md-header-anchor '></a>Primary Source Documents</h2><h3><a name='header-n4' class='md-header-anchor '></a>The MIT License<sup class='md-footnote'><a href='#dfref-footnote-1' name='ref-footnote-1'>1</a></sup></h3><p>The <a href='https://gist.github.com/ramontristani/8413293'>MIT license</a> remains at the top of the popular open source licenses list, at 66%.<sup class='md-footnote'><a href='#dfref-footnote-2' name='ref-footnote-2'>2</a></sup></p><p>Copyright <YEAR> <COPYRIGHT HOLDER></p><p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p><p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p><p>THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p><h2><a name='header-n10' class='md-header-anchor '></a><a href='https://en.wikipedia.org/wiki/Open-source_software#Widely_used_open-source_software'>Widely used open-source software</a></h2><p>Main article: <a href='https://en.wikipedia.org/wiki/List_of_free_and_open-source_software_packages'>List of free and open-source software packages</a></p><p>Open source software projects are built and maintained by a network of volunteer programmers and are widely used in free as well as commercial products.[<a href='https://en.wikipedia.org/wiki/Open-source_software#cite_note-Popp2-36'>36]</a> Prime examples of open-source products are the <a href='https://en.wikipedia.org/wiki/Apache_HTTP_Server'>Apache HTTP Server</a>, the e-commerce platform <a href='https://en.wikipedia.org/wiki/OsCommerce'>osCommerce</a>, internet browsers <a href='https://en.wikipedia.org/wiki/Mozilla_Firefox'>Mozilla Firefox</a> and <a href='https://en.wikipedia.org/wiki/Chromium_(web_browser)'>Chromium</a>(the project where the vast majority of development of the freeware <a href='https://en.wikipedia.org/wiki/Google_Chrome'>Google Chrome</a> is done) and the full office suite <a href='https://en.wikipedia.org/wiki/LibreOffice'>LibreOffice</a>. One of the most successful open-source products is the <a href='https://en.wikipedia.org/wiki/Linux'>GNU/Linux</a> operating system, an open-source <a href='https://en.wikipedia.org/wiki/Unix-like'>Unix-like</a>operating system, and its derivative <a href='https://en.wikipedia.org/wiki/Android_(operating_system)'>Android</a>, an operating system for mobile devices.[<a href='https://en.wikipedia.org/wiki/Open-source_software#cite_note-87'>87]</a>[<a href='https://en.wikipedia.org/wiki/Open-source_software#cite_note-88'>88]</a> In some industries, open source software is the norm.[<a href='https://en.wikipedia.org/wiki/Open-source_software#cite_note-Noyes16-89'>89]</a></p><h3><a name='header-n13' class='md-header-anchor '></a><a href='https://en.wikipedia.org/wiki/Linux'>Linux</a></h3><p>Linux is the leading operating system on <a href='https://en.wikipedia.org/wiki/Server_(computing)'>servers</a> and other <a href='https://en.wikipedia.org/wiki/Big_iron_(computing)'>big iron</a> systems such as <a href='https://en.wikipedia.org/wiki/Mainframe_computer'>mainframe computers</a>, and the only OS used on <a href='https://en.wikipedia.org/wiki/TOP500'>TOP500</a> <a href='https://en.wikipedia.org/wiki/Supercomputer'>supercomputers</a> (since November 2017, having gradually eliminated all competitors).[<a href='https://en.wikipedia.org/wiki/Linux#cite_note-23'>21]</a>[<a href='https://en.wikipedia.org/wiki/Linux#cite_note-24'>22]</a>[<a href='https://en.wikipedia.org/wiki/Linux#cite_note-rules_supercomputers-25'>23]</a> It is used by around 2.3 percent of <a href='https://en.wikipedia.org/wiki/Desktop_computer'>desktop computers</a>.[<a href='https://en.wikipedia.org/wiki/Linux#cite_note-Netmarketshare.com-26'>24]</a>[<a href='https://en.wikipedia.org/wiki/Linux#cite_note-27'>25]</a> The <a href='https://en.wikipedia.org/wiki/Chromebook'>Chromebook</a>, which runs the Linux kernel-based <a href='https://en.wikipedia.org/wiki/Chrome_OS'>Chrome OS</a>, dominates the US <a href='https://en.wikipedia.org/wiki/K%E2%80%9312'>K–12</a> education market and represents nearly 20 percent of sub-$300 <a href='https://en.wikipedia.org/wiki/Laptop'>notebook</a> sales in the US.[<a href='https://en.wikipedia.org/wiki/Linux#cite_note-28'>26]</a></p><p>Linux also runs on <a href='https://en.wikipedia.org/wiki/Embedded_system'>embedded systems</a>, i.e. devices whose <a href='https://en.wikipedia.org/wiki/Operating_system'>operating system</a> is typically built into the <a href='https://en.wikipedia.org/wiki/Firmware'>firmware</a> and is highly tailored to the system. This includes <a href='https://en.wikipedia.org/wiki/Router_(computing)'>routers</a>, <a href='https://en.wikipedia.org/wiki/Automation'>automation</a>controls, <a href='https://en.wikipedia.org/wiki/Television'>televisions</a>,[<a href='https://en.wikipedia.org/wiki/Linux#cite_note-29'>27]</a>[<a href='https://en.wikipedia.org/wiki/Linux#cite_note-30'>28]</a> <a href='https://en.wikipedia.org/wiki/Digital_video_recorder'>digital video recorders</a>, <a href='https://en.wikipedia.org/wiki/Video_game_console'>video game consoles</a>, and <a href='https://en.wikipedia.org/wiki/Smartwatch'>smartwatches</a>.[<a href='https://en.wikipedia.org/wiki/Linux#cite_note-LinuxDevices-31'>29]</a> Many smartphones and <a href='https://en.wikipedia.org/wiki/Tablet_computer'>tablet computers</a> run <a href='https://en.wikipedia.org/wiki/Android_(operating_system)'>Android</a> and other Linux derivatives.[<a href='https://en.wikipedia.org/wiki/Linux#cite_note-32'>30]</a> Because of the dominance of Android on <a href='https://en.wikipedia.org/wiki/Smartphone'>smartphones</a>, Linux has the <a href='https://en.wikipedia.org/wiki/Usage_share_of_operating_systems'>largest</a><a href='https://en.wikipedia.org/wiki/Installed_base'>installed base</a> of all <a href='https://en.wikipedia.org/wiki/General-purpose_operating_system'>general-purpose operating systems</a>.[<a href='https://en.wikipedia.org/wiki/Linux#cite_note-marketshare.hitslink.com-33'>31]</a></p><h3><a name='header-n16' class='md-header-anchor '></a><a href='https://en.wikipedia.org/wiki/Android_(operating_system)'>Android</a></h3><p>Android has been the best-selling OS worldwide on smartphones since 2011 and on tablets since 2013. As of May 2017, it has over two billion <a href='https://en.wikipedia.org/wiki/Monthly_active_users'>monthly active users</a>, the largest <a href='https://en.wikipedia.org/wiki/Installed_base'>installed base</a> of any operating system, and as of December 2018, the <a href='https://en.wikipedia.org/wiki/Google_Play'>Google Play</a> store features over 2.6 million apps.[<a href='https://en.wikipedia.org/wiki/Android_(operating_system)#cite_note-11'>11]</a></p><h4><a name='header-n18' class='md-header-anchor '></a>Global market share held by the leading smartphone operating systems in sales to end users from 1st quarter 2009 to 2nd quarter 2018<sup class='md-footnote'><a href='#dfref-footnote-3' name='ref-footnote-3'>3</a></sup></h4><p><a href="https://www.statista.com/statistics/266136/global-market-share-held-by-smartphone-operating-systems/" rel="nofollow"><img src="https://www.statista.com/graphic/1/266136/global-market-share-held-by-smartphone-operating-systems.jpg" alt="Statistic: Global market share held by the leading smartphone operating systems in sales to end users from 1st quarter 2009 to 2nd quarter 2018 | Statista" style="width: 100%; height: auto !important; max-width:1000px;-ms-interpolation-mode: bicubic;"/></a></p><p>Summary:</p><p>Introduced by Google in 2007, Android is the most popular smartphone operating system in the world as of 2016. Since its release, sales of smartphones running on the Android have grown strongly over the years. In 2009, 6.8 million <a href='https://www.statista.com/statistics/263445/global-smartphone-sales-by-operating-system-since-2009/'>Android smartphones were sold</a>. By 2015, this figure had risen to more than 1.16 billion. Android accounted for around 85 percent of all <a href='https://www.statista.com/statistics/266219/global-smartphone-sales-since-1st-quarter-2009-by-operating-system/'>smartphone sales to end users worldwide</a> in the beginning of 2016.</p><h3><a name='header-n22' class='md-header-anchor '></a><a href='https://en.wikipedia.org/wiki/LibreOffice'>LibreOffice</a></h3><p>The LibreOffice suite comprises programs for word processing, the creation and editing of spreadsheets, slideshows, diagrams and drawings, working with <a href='https://en.wikipedia.org/wiki/Databases'>databases</a>, and composing mathematical formulae. It is available in 115 languages.[<a href='https://en.wikipedia.org/wiki/LibreOffice#cite_note-languages-9'>9]</a></p><p>Between January 2011 (the first stable release) and October 2011, LibreOffice was downloaded approximately 7.5 million times.[<a href='https://en.wikipedia.org/wiki/LibreOffice#cite_note-The_Register-21'>21]</a> The project claims 120 million unique downloading addresses from May 2011 to May 2015, excluding Linux distributions, with 55 million of those being from May 2014 to May 2015.[<a href='https://en.wikipedia.org/wiki/LibreOffice#cite_note-22'>22]</a></p><h4><a name='header-n25' class='md-header-anchor '></a>International OpenOffice market shares<sup class='md-footnote'><a href='#dfref-footnote-4' name='ref-footnote-4'>4</a></sup></h4><p>Many of the leading countries have switched to OpenOffice (or the <a href='http://en.wikipedia.org/wiki/OpenDocument'>ODF</a> file format) in their public administration, education system or in several municipal governments. (Examples from <a href='http://www.h-online.com/open/news/item/Denmark-to-implement-ODF-document-standard-918962.html'>Denmark</a>, <a href='http://www.h-online.com/open/news/item/Munich-administration-switches-to-OpenDocument-Format-895415.html'>Germany</a>, <a href='http://en.wikipedia.org/wiki/Guadalinex'>Spain</a>, <a href='http://wiki.services.openoffice.org/wiki/Major_OpenOffice.org_Deployments'>full list at Openoffice.org</a>)</p><p>Summary: OpenOffice was popular among many European nations.</p><h3><a name='header-n28' class='md-header-anchor '></a><a href='https://en.wikipedia.org/wiki/Apache_HTTP_Server'>Apache HTTP Server</a></h3><p>In 2009, it became the first web server software to serve more than 100 million <a href='https://en.wikipedia.org/wiki/Website'>websites</a>.[<a href='https://en.wikipedia.org/wiki/Apache_HTTP_Server#cite_note-100millionsites-10'>10]</a>As of August 2018, it was estimated to serve 39% of all active websites and 35% of the top million websites.[<a href='https://en.wikipedia.org/wiki/Apache_HTTP_Server#cite_note-11'>11]</a></p><h4><a name='header-n30' class='md-header-anchor '></a>Usage of web servers broken down by ranking<sup class='md-footnote'><a href='#dfref-footnote-5' name='ref-footnote-5'>5</a></sup></h4><p><img src='C:\Users\Kevin Li\Desktop\Junior\American Lit. and Composition\images\web_server_popularity_chart.png' alt='1557185142500' referrerPolicy='no-referrer' /></p><p>Summary:</p><p>Almost all top web servers are open source or supports an open source version like Apache, Nginx, and LiteSpeed.</p><h3><a name='header-n34' class='md-header-anchor '></a>Google Chrome (backed by open source Chromium)</h3><p>Chrome worldwide browser market share: 63.16% in April 2019<sup class='md-footnote'><a href='#dfref-footnote-6' name='ref-footnote-6'>6</a></sup></p><p><img src='C:\Users\Kevin Li\Desktop\Junior\American Lit. and Composition\images\StatCounter-browser-ww-monthly-200901-201707.png' alt='StatCounter-browser-ww-monthly-200901-201707' referrerPolicy='no-referrer' /></p><p><a href='http://gs.statcounter.com/browser-market-share/all/united-states-of-america#monthly-200901-201707'>Chrome North American browser market share</a>: 50.59% in April 2019</p><p><img src='C:\Users\Kevin Li\Desktop\Junior\American Lit. and Composition\images\StatCounter-browser-US-monthly-200901-201707.png' alt='StatCounter-browser-US-monthly-200901-201707' referrerPolicy='no-referrer' /></p><h2><a name='header-n39' class='md-header-anchor '></a>Creative Commons</h2><h3><a name='header-n40' class='md-header-anchor '></a><a href='https://creativecommons.org/about/program-areas/arts-culture/culture-partners/'>Partners</a></h3><h4><a name='header-n41' class='md-header-anchor '></a>Wikipedia</h4><p><a href='https://www.wikipedia.org/'><img src='https://d15omoko64skxi.cloudfront.net/wp-content/uploads/2016/05/wikipedia.png' alt='wikipedia' referrerPolicy='no-referrer' /></a>Wikipedia migrated its licensing structure from the GNU Free Documentation License to a Creative Commons Attribution-ShareAlike license. The world’s largest and most cited collaborative encyclopedia made this move via a community vote and for good reason. By changing to a CC BY-SA license, Wikipedia (and the entire collection of Wikimedia sites) allows content to legally flow in and out of the site with ease, enabling one of the great cultural resources of the digital revolution to legally interact with an endless array of similar cultural institutions.</p><h4><a name='header-n43' class='md-header-anchor '></a>flickr</h4><p><a href='https://www.flickr.com/'><img src='https://d15omoko64skxi.cloudfront.net/wp-content/uploads/2016/05/flickr.png' alt='flickr' referrerPolicy='no-referrer' /></a>Flickr was one of the first major online communities to incorporate Creative Commons licensing options into its user interface, giving photographers around the world the easy ability to share photos on terms of their choosing. As the Flickr community grew, so did the number of CC-licensed images — currently there are well over 100 million on the site — establishing Flickr as the Web’s single largest source of CC-licensed content. Flickr’s services have grown to include a CC image portal and advanced CC search features, making the site one of world’s most useful resources for discovering creativity that is available for free and legal sharing, use, and remixing.</p><h5><a name='header-n45' class='md-header-anchor '></a>Statistics of medias licensed under Creative Commons<sup class='md-footnote'><a href='#dfref-footnote-7' name='ref-footnote-7'>7</a></sup></h5><p>(As of May 2019)</p><figure><table><thead><tr><th>Logo</th><th>License Name</th><th>Number of photos</th></tr></thead><tbody><tr><td><img src='https://s.yimg.com/pw/images/cc_icon_attribution.gif.v2' alt='Attribution' referrerPolicy='no-referrer' /><img src='https://s.yimg.com/pw/images/cc_icon_noncomm.gif.v2' alt='Noncommercial' referrerPolicy='no-referrer' /><img src='https://s.yimg.com/pw/images/cc_icon_noderivs.gif.v2' alt='No Derivative Works' referrerPolicy='no-referrer' /></td><td>Attribution-NonCommercial-NoDerivs License</td><td>46,137,208</td></tr><tr><td><img src='https://s.yimg.com/pw/images/cc_icon_attribution.gif.v2' alt='Attribution' referrerPolicy='no-referrer' /><img src='https://s.yimg.com/pw/images/cc_icon_noncomm.gif.v2' alt='Noncommercial' referrerPolicy='no-referrer' /><img src='https://s.yimg.com/pw/images/cc_icon_sharealike.gif.v2' alt='Share Alike' referrerPolicy='no-referrer' /></td><td>Attribution-NonCommercial-ShareAlike License</td><td>9,970,001</td></tr><tr><td><img src='https://s.yimg.com/pw/images/cc_icon_attribution.gif.v2' alt='Attribution' referrerPolicy='no-referrer' /><img src='https://s.yimg.com/pw/images/cc_icon_noderivs.gif.v2' alt='No Derivative Works' referrerPolicy='no-referrer' /></td><td>Attribution-NoDerivs License</td><td>54,706,869</td></tr><tr><td><img src='https://s.yimg.com/pw/images/cc_icon_attribution.gif.v2' alt='Attribution' referrerPolicy='no-referrer' /><img src='https://s.yimg.com/pw/images/cc_icon_noncomm.gif.v2' alt='Noncommercial' referrerPolicy='no-referrer' /></td><td>Attribution-NonCommercial License</td><td>24,843,285</td></tr><tr><td><img src='https://s.yimg.com/pw/images/cc_icon_attribution.gif.v2' alt='Attribution' referrerPolicy='no-referrer' /><img src='https://s.yimg.com/pw/images/cc_icon_sharealike.gif.v2' alt='Share Alike' referrerPolicy='no-referrer' /></td><td>Attribution-ShareAlike License</td><td>21,849,713</td></tr><tr><td><img src='https://s.yimg.com/pw/images/cc_icon_attribution.gif.v2' alt='Attribution' referrerPolicy='no-referrer' /></td><td>Attribution License</td><td>36,701,002</td></tr><tr><td>&nbsp;</td><td>Public Domain Dedication (CC0)</td><td>1,495,942</td></tr><tr><td>&nbsp;</td><td>Public Domain Mark</td><td>3,743,932</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>Total: 199,447,952</td></tr></tbody></table></figure><h4><a name='header-n88' class='md-header-anchor '></a><a href='https://creativecommons.org/about/program-areas/arts-culture/'>Other Art Institutions</a></h4><iframe src="https://www.slideshare.net/slideshow/embed_code/key/ioJ7ugZaXhRR4O" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen="" onerror="this.style.display = 'none';"> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/janeatcc/cc-cultural-heritage" title="Creative Commons &amp; Cultural Heritage" target="_blank">Creative Commons &amp; Cultural Heritage</a> </strong> from <strong><a href="https://www.slideshare.net/janeatcc" target="_blank">Jane Park</a></strong> </div><h3><a name='header-n90' class='md-header-anchor '></a>Open Education</h3><p><a href='https://creativecommons.org/about/program-areas/education-oer/' target='_blank' class='url'>https://creativecommons.org/about/program-areas/education-oer/</a></p><h1><a name='header-n92' class='md-header-anchor '></a>Open Source in Big Companies</h1><p><a href='https://thenewstack.io/survey-open-source-programs-are-a-best-practice-among-large-companies' target='_blank' class='url'>https://thenewstack.io/survey-open-source-programs-are-a-best-practice-among-large-companies</a>0405004050</p><h2><a name='header-n94' class='md-header-anchor '></a>Footnotes</h2><p>&nbsp;</p><div class='footnotes-area'  ><hr/>
+<div class='footnote-line'><span class='md-fn-count'>1</span> <a href='https://opensource.org/licenses/MIT' target='_blank' class='url'>https://opensource.org/licenses/MIT</a><a name='dfref-footnote-1' href='#ref-footnote-1' title='back to document' class='reversefootnote' >↩</a></div>
+<div class='footnote-line'><span class='md-fn-count'>2</span> <a href='https://resources.whitesourcesoftware.com/blog-whitesource/top-open-source-licenses-trends-and-predictions' target='_blank' class='url'>https://resources.whitesourcesoftware.com/blog-whitesource/top-open-source-licenses-trends-and-predictions</a><a name='dfref-footnote-2' href='#ref-footnote-2' title='back to document' class='reversefootnote' >↩</a></div>
+<div class='footnote-line'><span class='md-fn-count'>3</span> <a href='https://www.statista.com/statistics/266136/global-market-share-held-by-smartphone-operating-systems/' target='_blank' class='url'>https://www.statista.com/statistics/266136/global-market-share-held-by-smartphone-operating-systems/</a><a name='dfref-footnote-3' href='#ref-footnote-3' title='back to document' class='reversefootnote' >↩</a></div>
+<div class='footnote-line'><span class='md-fn-count'>4</span> <a href='https://www.webmasterpro.de/portal/news/2010/02/05/international-openoffice-market-shares.html' target='_blank' class='url'>https://www.webmasterpro.de/portal/news/2010/02/05/international-openoffice-market-shares.html</a><a name='dfref-footnote-4' href='#ref-footnote-4' title='back to document' class='reversefootnote' >↩</a></div>
+<div class='footnote-line'><span class='md-fn-count'>5</span> <a href='https://w3techs.com/technologies/cross/web_server/ranking' target='_blank' class='url'>https://w3techs.com/technologies/cross/web_server/ranking</a><a name='dfref-footnote-5' href='#ref-footnote-5' title='back to document' class='reversefootnote' >↩</a></div>
+<div class='footnote-line'><span class='md-fn-count'>6</span> <a href='http://gs.statcounter.com/browser-market-share#monthly-200901-201707' target='_blank' class='url'>http://gs.statcounter.com/browser-market-share#monthly-200901-201707</a><a name='dfref-footnote-6' href='#ref-footnote-6' title='back to document' class='reversefootnote' >↩</a></div>
+<div class='footnote-line'><span class='md-fn-count'>7</span> <a href='https://www.flickr.com/creativecommons/' target='_blank' class='url'>https://www.flickr.com/creativecommons/</a><a name='dfref-footnote-7' href='#ref-footnote-7' title='back to document' class='reversefootnote' >↩</a></div></div></div>
+</body>
+</html>

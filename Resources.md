@@ -1,5 +1,3 @@
-# Digital Narrative
-
 # Resources
 
 ## Primary Source Documents
