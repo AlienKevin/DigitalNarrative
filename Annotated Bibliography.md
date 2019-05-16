@@ -6,7 +6,7 @@ What is the Open Source movement? How does Open Source changed my life and the w
 
 #  Primary Sources
 
-## The MIT License[^1]
+## The MIT License
 
 #### Summary
 
