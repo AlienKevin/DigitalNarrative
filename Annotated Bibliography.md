@@ -16,7 +16,7 @@ The MIT License is one of the most used open source license for software. It is 
 
 The MIT License enabled millions of programmers to freely share their software with others and collaborate with other programmers without the restrictions of the strict Copyright laws.
 
-## Declaration of Independence[^2]
+## Declaration of Independence
 
 #### Summary
 
