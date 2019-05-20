@@ -56,7 +56,7 @@ In 2009, it became the first web server software to serve more than 100 million 
 
 #### Usage of web servers broken down by ranking[^5]
 
-![1557185142500](C:\Users\Kevin Li\Desktop\Junior\American Lit. and Composition\images\web_server_popularity_chart.png)
+![1557185142500](./images/web_server_popularity_chart.png)
 
 Summary:
 
@@ -66,11 +66,11 @@ Almost all top web servers are open source or supports an open source version li
 
 Chrome worldwide browser market share: 63.16% in April 2019[^6]
 
-![StatCounter-browser-ww-monthly-200901-201707](C:\Users\Kevin Li\Desktop\Junior\American Lit. and Composition\images\StatCounter-browser-ww-monthly-200901-201707.png)
+![StatCounter-browser-ww-monthly-200901-201707](./images/StatCounter-browser-ww-monthly-200901-201707.png)
 
 [Chrome North American browser market share](http://gs.statcounter.com/browser-market-share/all/united-states-of-america#monthly-200901-201707): 50.59% in April 2019
 
-![StatCounter-browser-US-monthly-200901-201707](C:\Users\Kevin Li\Desktop\Junior\American Lit. and Composition\images\StatCounter-browser-US-monthly-200901-201707.png)
+![StatCounter-browser-US-monthly-200901-201707](./images/StatCounter-browser-US-monthly-200901-201707.png)
 
 ## Creative Commons
 
