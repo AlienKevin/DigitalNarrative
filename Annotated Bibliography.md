@@ -208,9 +208,11 @@ This book reveals a lot of overlaps between founding American values seen in the
 
 <iframe width='1706' height='480' src='https://embed.coggle.it/diagram/XNyx1g1FzNMDKEm4/e416ef6cf9683fd81a15baed469fdddd9da25a22361c5ea99d0fe1a7dbf2cd8d' frameborder='0' allowfullscreen></iframe>
 
-# References
+# References for annotated bibliography and video
 
 “About The Licenses.” *Creative Commons*, creativecommons.org/licenses.
+
+Boldrin, Michele, and David K. Levine. *Against Intellectual Monopoly*. Cambridge University Press, 2010.
 
 “Browser Market Share Worldwide.” *StatCounter Global Stats*, 2019, gs.statcounter.com/browser-market-share#monthly-200901-201707.
 
@@ -218,7 +220,11 @@ Cormec, Owen. “WikiGalaxy: Explore Wikipedia in 3D.” *WikiGalaxy: Explore Wi
 
 “Explore Creative Commons.” *Flickr*, Yahoo!, 2019, www.flickr.com/creativecommons/.
 
+Goldberg, Corey. “Linux Kernel Development Visualization (Git Commit History - Past 6 Weeks - June 02 2012).” *YouTube*, YouTube, 2 June 2012, www.youtube.com/watch?v=P_02QGsHzEQ&t=2s.
+
 Goldstein, Ayala. “Top 10 Open Source Licenses in 2018: Trends and Predictions.” *WhiteSource*, 21 Feb. 2019, resources.whitesourcesoftware.com/blog-whitesource/top-open-source-licenses-trends-and-predictions.
+
+“How Linux Is Built.” *YouTube*, The Linux Foundation, 26 May 2014, www.youtube.com/watch?v=H7Uz692S6T4&list=WL&index=3&t=46s.
 
 LaPorte, Stephen, and Mahmoud Hashemi. “Hatnote Listen to Wikipedia.” *Hatnote*, listen.hatnote.com/.
 
@@ -229,6 +235,8 @@ Marvin, Rob. “Tech Addiction By the Numbers: How Much Time We Spend Online.”
 Park, Jane. “Creative Commons & Cultural Heritage.” *LinkedIn SlideShare*, 12 Dec. 2014, www.slideshare.net/janeatcc/cc-cultural-heritage.
 
 Reagle, Joseph Michael. *Good Faith Collaboration: the Culture of Wikipedia*. MIT Press, 2012.
+
+Stallman, Richard. “Why Open Source Misses the Point of Free Software.” *GNU Operating System*, Free Software Foundation, www.gnu.org/philosophy/open-source-misses-the-point.en.html.
 
 Stauber, Matan. “Timeline of History.” *Histography*, histography.io/.
 
