@@ -10,4 +10,4 @@ My digital narrative about how Open Source changed my life and the world.
 
 ## License
 
-This project is licensed under the terms of the MIT license.
+This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
